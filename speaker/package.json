@@ -1,0 +1,31 @@
+{
+  "name": "vewmet_audio_streamer",
+  "version": "0.0.1",
+  "description": "channel producer live audio streaming service for millions",
+  "main": "backend.js",
+  "scripts": {
+  	"start" :"pm2 start webSocketServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharath-naik/liveaudiopushpin.git"
+  },
+  "keywords": [
+    "audio",
+    "streamer",
+    "vewmet"
+  ],
+  "author": "Bharath Naik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bharath-naik/liveaudiopushpin/issues"
+  },
+  "homepage": "https://github.com/bharath-naik/liveaudiopushpin#readme",
+  "dependencies": {
+    "grip": "^1.6.0",
+    "http": "^0.0.1-security",
+    "pm2": "^4.5.5",
+    "websocket": "^1.0.33"
+  }
+}
