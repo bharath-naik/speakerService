@@ -1,7 +1,7 @@
 module.exports = {
   apps : [
     {
-      script: './webSockerServer.js',
+      script: './socketioServer.js',
       name :'masterSpeakerSocket',
       autorestart: true,
       watch: true
