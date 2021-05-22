@@ -1,4 +1,4 @@
 Speaker service which broadcasts audio buffer data to listener service using Istio Serivice Mesh inside the kubernetes cluster
 
 
-check 4
+deployment test check 5
