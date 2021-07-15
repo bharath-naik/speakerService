@@ -2,7 +2,7 @@ FROM node:14-alpine
 
 LABEL MAINTAINER Bharath Naik "bharath.vadithya@gmail.com"
 
-ENV REFRESHED_AT 2021-05-21
+ENV REFRESHED_AT 2021-07-16
 ENV NODE_ENV=production
 #create app working directory
 WORKDIR /speakerSocket
@@ -11,8 +11,8 @@ WORKDIR /speakerSocket
 # A wildcard is used to ensure both package.json
 COPY ["./speaker", "./"]
 
-RUN npm install --production && npm install pm2 -g
+RUN npm install --production
 
-CMD ["pm2-runtime", "ecosystem.config.js"] 
+CMD ["node", "socketioServer.js"] 
 
 EXPOSE 8081
