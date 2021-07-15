@@ -29,7 +29,6 @@
     "grip": "^1.6.0",
     "http": "^0.0.1-security",
     "os": "^0.1.1",
-    "pm2": "^4.5.5",
     "socket.io": "^4.1.0",
     "throttle": "^1.0.3",
     "websocket": "^1.0.33"
